@@ -1,0 +1,14 @@
+@import 'default-style';
+// main styling //
+.grid-container {
+    flex-wrap: wrap;
+}
+
+.col {
+    border: 1px solid black;
+    margin: 3px;
+}
+
+img {
+    max-width: 200px;
+}
