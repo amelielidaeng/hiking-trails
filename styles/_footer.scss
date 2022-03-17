@@ -1,0 +1,9 @@
+.bottom-list {
+    display: flex;
+    list-style: none;
+
+    &__item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
