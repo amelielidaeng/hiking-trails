@@ -1,4 +1,6 @@
-body{
-    background-color: #DAF4C5;
-    color: #DAF4C5;
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
 }

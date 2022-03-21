@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hiking Trails</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body style="background-color:#DAF4C5;">
-    <svg  width="300" height="300" viewBox="-100 -200 200 400">
+  <svg  width="300" height="300" viewBox="-100 -200 200 400">
         <path
         d="
         M 100 120 100 30
@@ -35,50 +35,58 @@
           cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="green">
           <polyline points="70, 120 100,165 150,80" stroke="green" stroke-width="20" stroke-linecap="round"></polyline>
         />
-    </svg>  
-    <main>
-        <div class="card mb-3" style="max-width: 540px;">
+  </svg>  
+  <main class="center">
+      <div class="card" style="width: 50rem;">
+        <img src="pictures/sun.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+     <br>
+     <br>
+        <div class="card border-success mb-5" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="pictures/forest.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 href="../pages/hiking-third/easy.html" class="card-title">Easy</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border-warning mb-5" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="pictures/lake.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Medium</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border-danger mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="pictures/mountain.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Hard</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 </div>
               </div>
         </div>
-    </main>
+  </main>
 </body>
 </html>
