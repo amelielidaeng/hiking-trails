@@ -1,0 +1,35 @@
+// .wtd_bg-img {
+//     background-image: url("/images/what_to_do/archipelago.webp");
+//     background-size: cover;
+//     background-position: center center;
+//     background-attachment: fixed;
+//     width: 1400px;
+//     height: 430px;
+//     z-index: 1;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+// }
+.wtd_bg-img-text {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    left: 50px;
+}
+
+.wtd_img-wrapper {
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.wtd_img {
+    max-width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.wtd_img-wrapper h5 {
+    margin-top: 10px;
+}

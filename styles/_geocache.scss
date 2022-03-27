@@ -1,0 +1,53 @@
+.geocache_bg-img {
+    background-image: url("/images/geocashe/StockSnap_geocashe.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 1400px;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.geocashe_body {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.geocashe_main {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.grid_area {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.geocache_img-container {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.geocache_bg-img-text {
+    font-size: 80px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+    z-index: 1;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
+}
+
+.geocache_card-img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin: 0 10px 20px 0;
+}
+
+.card-title {
+    margin-top: 20px;
+}

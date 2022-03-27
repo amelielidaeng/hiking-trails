@@ -8,16 +8,105 @@
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles/geocashe.css">
-    <title>Geocashe</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Geocache new</title>
 </head>
 
-<body>
-    <main>
-
+<body class="geocashe_body">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Swedish Hiking Trails</a>
+                <button class="navbar-toggler" type="bfwjefijutton" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                        <!--
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trails
+                      </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <!--
+                              <li><a class="dropdown-item" href="/pages/hiking-trails.html">Trails</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              -->
+                                <li><a class="dropdown-item" href="/pages/hiking-third/easy.html">Easy</a></li>
+                                <li><a class="dropdown-item" href="/pages/hiking-third/medium.html">Medium</a></li>
+                                <li><a class="dropdown-item" href="/pages/hiking-third/hard.html">Hard</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      What to do <!--is "activities" a better name?-->
+                      </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <!--
+                              <li><a class="dropdown-item" href="/pages/what-to-do.html">What to do</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              -->
+                                <li><a class="dropdown-item" href="/pages/what-third/landmarks.html">Landmarks</a></li>
+                                <li><a class="dropdown-item" href="/pages/what-third/geocache.html">Geocache</a></li>
+                                <li><a class="dropdown-item" href="/pages/what-third/wild-life.html">Wild life</a></li>
+                                <li><a class="dropdown-item" href="/pages/what-third/family.html">Family outings</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="geocashe_main">
+        <div class="geocache_bg-img container-fluid">
+            <p class="geocache_bg-img-text">Geocache</p>
+        </div>
+        <div>
+            <p>We arranges geocache competitions. We have both general and national competitions.</p>
+        </div>
+        <section class="grid_area mt-5 ">
+            <div class="row row-cols-12 grid_area">
+                <div class="col p-1 grid-container geocache_img-container grid_area">
+                    <img class="geocache_card-img" src="/images/geocashe/pixabay-geocashe.webp" alt="geocache competitors">
+                    <h3 class="card-title">National competitions</h3>
+                    <p class="card-text">We arrange national competitions for Geocaching. It is similar to orientation, but the target have to be located by its coordinate and is often hidden. The contestants of the national competition don't collect a psysical object. Instead
+                        They have to solve maths, riddles and other fact questions. No internet device is allowed.The winner is the one with most score in both right answers and total time when finished.</p>
+                    <h3 class="card-title">General competitions</h3>
+                    <p class="card-text">Our general competitions is different from the national. The target have have to be collected, so here you will have a bag with you. The winner is the one who collected the most objects.</p>
+                    <h3 class="card-title">Non competitions</h3>
+                    <p class="card-text">Here you train your skills without competing. Its a good activity for family. The objects are a fixed installation, so you only take a picture and show it to the staff when finished.</p>
+                    <h5 class="m-5">More information about the area of the sport in our maps</h5>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <footer>
+        <nav class="navbar sticky-bottom navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">Swedish Hiking Trails</a>
+                <ul class="bottom-list">
+                    <!--class name??? fix color and alignment-->
+                    <li class="bottom-list__item"><a href="http://instagram.com"><i class="bi bi-instagram"></i></a></li>
+                    <li class="bottom-list__item"><a href="http://facebook.com"><i class="bi bi-facebook"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
 
 </html>
