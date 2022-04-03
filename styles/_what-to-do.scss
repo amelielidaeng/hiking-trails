@@ -1,15 +1,3 @@
-// .wtd_bg-img {
-//     background-image: url("/images/what_to_do/archipelago.webp");
-//     background-size: cover;
-//     background-position: center center;
-//     background-attachment: fixed;
-//     width: 1400px;
-//     height: 430px;
-//     z-index: 1;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-// }
 .wtd_bg-img-text {
     font-size: 40px;
     letter-spacing: 2px;
@@ -22,6 +10,10 @@
 .wtd_img-wrapper {
     border: 1px solid black;
     margin: 3px;
+}
+
+.wtd_img-wrapper:hover {
+    background-color: rgba(0, 255, 255, 0.3);
 }
 
 .wtd_img {

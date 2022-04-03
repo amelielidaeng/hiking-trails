@@ -1,11 +1,10 @@
-@import 'default-style';
-// main styling //
 .wildlife-img-wrapper {
     border: 1px solid black;
-    margin: 3px;
+    margin: 5px;
 }
 
 .wildlife-img {
     max-width: 200px;
     float: left;
+    margin: 0 5px 5px 0;
 }

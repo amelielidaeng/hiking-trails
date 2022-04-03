@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
-body {
-  margin: 10px auto;
-  max-width: 1400px;
-  width: 100%;
-  min-height: 800px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  background-color: #daf4c5;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-
 body {
   margin: 10px auto;
   max-width: 1400px;
@@ -27,25 +14,13 @@ body {
 
 .wildlife-img-wrapper {
   border: 1px solid black;
-  margin: 3px;
+  margin: 5px;
 }
 
 .wildlife-img {
   max-width: 200px;
   float: left;
-}
-
-.wtd_bg-img {
-  background-image: url("/images/what-to-do.webp");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  width: 1400px;
-  height: 430px;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0 5px 5px 0;
 }
 
 .wtd_bg-img-text {
@@ -62,6 +37,10 @@ body {
   margin: 3px;
 }
 
+.wtd_img-wrapper:hover {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+
 .wtd_img {
   max-width: 200px;
   float: left;
@@ -70,40 +49,6 @@ body {
 
 .wtd_img-wrapper h5 {
   margin-top: 10px;
-}
-
-.family-bg-img {
-  background-image: url("/images/family/pixabay-family.webp");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  width: 1400px;
-  height: 705px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.family-bg-img p {
-  font-size: 80px;
-  letter-spacing: 2px;
-  font-weight: 700;
-  color: white;
-  z-index: 1;
-  position: relative;
-  bottom: 150px;
-  left: 50px;
-}
-
-.geocache_bg-img {
-  background-image: url("/images/geocashe/StockSnap_geocashe.webp");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  width: 1400px;
-  height: 705px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .geocache_bg-img-text {
@@ -155,4 +100,23 @@ body {
 
 .landmark_card-text {
   margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+.bottom-list {
+  list-style: none;
+  display: flex;
+}
+.bottom-list__item {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 1rem;
+}
+
+.bi {
+  color: black;
 }
