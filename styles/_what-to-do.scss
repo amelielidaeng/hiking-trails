@@ -1,0 +1,27 @@
+.wtd_bg-img-text {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    left: 50px;
+}
+
+.wtd_img-wrapper {
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.wtd_img-wrapper:hover {
+    background-color: rgba(0, 255, 255, 0.3);
+}
+
+.wtd_img {
+    max-width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.wtd_img-wrapper h5 {
+    margin-top: 10px;
+}

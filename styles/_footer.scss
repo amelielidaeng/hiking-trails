@@ -1,0 +1,13 @@
+.bottom-list {
+    list-style: none;
+    display: flex;
+    &__item {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 1rem;
+    }
+}
+
+.bi {
+    color: black;
+}

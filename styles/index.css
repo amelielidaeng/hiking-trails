@@ -107,3 +107,115 @@
     font-size: 18px;
   }
 }
+@media only screen and (min-width:992px){.dropdown:hover .dropdown-menu{display:block}}.carousel{margin-top:10px;margin-bottom:10px}.bottom-list{list-style:none;display:flex}.bottom-list__item{padding-left:10px;padding-right:10px;margin-top:1rem}.bi{color:black}body{font-family:"Poppins",sans-serif;font-size:16px;letter-spacing:1px;background-color:#DAF4C5;margin:10px;height:100%}.form{margin:2rem}.form .form-group{margin-top:0.5rem}.custom-control{margin-top:1rem;margin-bottom:1rem}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+body {
+  margin: 10px auto;
+  max-width: 1400px;
+  width: 100%;
+  min-height: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #daf4c5;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.wildlife-img-wrapper {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.wildlife-img {
+  max-width: 200px;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.wtd_bg-img-text {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  left: 50px;
+}
+
+.wtd_img-wrapper {
+  border: 1px solid black;
+  margin: 3px;
+}
+
+.wtd_img-wrapper:hover {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+
+.wtd_img {
+  max-width: 200px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.wtd_img-wrapper h5 {
+  margin-top: 10px;
+}
+
+.geocache_bg-img-text {
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+  z-index: 1;
+  position: relative;
+  bottom: 120px;
+  left: 50px;
+}
+
+.geocache_card-img {
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin: 0 10px 20px 0;
+}
+
+.card-title {
+  margin-top: 20px;
+}
+
+.landmark_card {
+  border: 2px solid black;
+  margin: 5px;
+  min-height: 220px;
+  box-sizing: border-box;
+}
+
+.landmark_img {
+  max-width: 200px;
+  float: left;
+  margin-right: 5px;
+}
+
+.landmark_card-text {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+.bottom-list {
+  list-style: none;
+  display: flex;
+}
+.bottom-list__item {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 1rem;
+}
+
+.bi {
+  color: black;
+}
