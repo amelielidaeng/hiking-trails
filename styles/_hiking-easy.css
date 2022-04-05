@@ -1,0 +1,153 @@
+.easy-hiking-1row {
+  color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.easy-hiking-2row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+
+
+.suprise{
+    border-style: outset;
+    margin:10px;
+    padding:10px;
+    max-width: 80px;
+    max-height: 10px;
+    background-color:gray;
+    color: white;
+  }
+  
+  .suprise:hover{
+    border-style: inset;
+    background-color: brown;
+  }
+  
+  #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+    
+    #text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 50px;
+      color: white;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+    }
+
+
+    .hamburger{
+        border-style: outset;
+        margin:10px;
+        padding:10px;
+        max-width: 80px;
+        max-height: 10px;
+        background-color:gray;
+        color:white;
+    }
+    
+    .hamburger:hover{
+        border-style: inset;
+        background-color: brown;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    
+    .bar{
+        display: block;
+        border-style: outset;
+        margin:10px;
+        padding:10px;
+        max-width: 80px;
+        max-height: 10px;
+    }
+    
+    .bar:hover{
+        border-style: inset;
+        background-color: brown;
+    }
+    
+    .hamburger-style {
+        overflow: hidden;
+        
+        position: relative;
+      }
+      
+      .hamburger-style #myLinks {
+        display: none;
+      }
+      
+      .hamburger-style a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #333;
+        display: block;
+      }
+    
+      .hamburger-block{
+        display: block;
+      }
+      
+      
+      .hamburger-style a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    
+    @media(max-width:760px){
+        .hamburger-menu{
+            display:block;
+        }
+        .hamburger{
+            display:none;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
