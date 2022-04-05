@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Hiking Trails</title>
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <svg  width="50" height="50" viewbox="0 -30 100 200">
+                    <path
+                    d="
+                    M 100 120 100 30
+                    M -20 100 100 120
+                    M -20 100 -20 20
+                    M -20 20 100 30
+                    M 120 10 100 30
+                    M 120 90 120 10
+                    M 100 120 120 90
+                    M -20 100 -40 120
+                    M -40 120 -40 50
+                    M -40 50 -20 20
+                    M -10 90 5 80
+                    M 10 75 20 60
+                    M 30 60 40 75
+                    M 70 75 50 80
+                    M 75 70 90 50"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="5"
+                    cx="110" cy="110" r="100"/>
+                </svg> 
+                Swedish Hiking Trails
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Trails
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="/pages/hiking-third/easy.html">Easy</a></li>
+                            <li><a class="dropdown-item" href="/pages/hiking-third/medium.html">Medium</a></li>
+                            <li><a class="dropdown-item" href="/pages/hiking-third/hard.html">Hard</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        What to do
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
+                                <li><a class="dropdown-item" href="/what-third/landmarks.html">Landmarks</a></li>
+                                <li><a class="dropdown-item" href="/what-third/geocache.html">Geocache</a></li>
+                                <li><a class="dropdown-item" href="/what-third/wild-life.html">Wild life</a></li>
+                                <li><a class="dropdown-item" href="/what-third/family.html">Family outings</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+          </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container mt-3 mb-3">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <!--add alt text on images and links-->
+            <div class="carousel-inner">
+            	<div class="carousel-item active">
+                	<img src="/images/landing/image04.webp" class="d-block w-100" alt="...">
+                	<div class="carousel-caption d-none d-md-block">
+                  		<h2><a href="/pages/hiking-trails.html" class="carousel__link link-light">Our Hiking Trails</a></h2>
+                  		<p>Read about our different hiking trails and what they have to offer. Choose between difficulties 
+                              and see what your next adventure will be. 
+                        </p>
+                	</div>
+            	</div>
+              	<div class="carousel-item">
+                	<img src="/images/landing/image02.webp" class="d-block w-100" alt="...">
+                	<div class="carousel-caption d-none d-md-block">
+                    	<h2><a href="/pages/what-to-do.html" class="carousel__link link-light">What To Do</a></h2>
+                    	<p>Have a look at our what to do section where you will find trails based on activites, 
+                            such as geocache, or if you are adventuring as a family.</p>
+                	</div>
+              	</div>
+              	<div class="carousel-item">
+                	<img src="/images/landing/image06.webp" class="d-block w-100" alt="...">
+                	<div class="carousel-caption d-none d-md-block">
+                    	<h2><a href="/pages/what-third/landmarks.html" class="carousel__link link-light">Landmarks</a></h2>
+                    	<p>Plan your day around finding a landmark such as an ancient rune stone, 
+                            (or other things that we have written about in this section)</p>
+                	</div>
+              	</div>
+                <div class="carousel-item">
+                	<img src="/images/landing/image08.webp" class="d-block w-100" alt="...">
+                	<div class="carousel-caption d-none d-md-block">
+                    	<h2><a href="/pages/hiking-third/hard.html" class="carousel__link link-light">Difficult trails</a></h2>
+                    	<p>Check out our trails with the highest difficulty and most exhausting terrains! </p>
+                	</div>
+              	</div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              	<span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+              	<span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+        </div>
+    </main>
+    <nav class="navbar sticky-bottom navbar-light bg-light mt-auto">
+    	<div class="container-fluid align-items-center">
+    		<a class="navbar-brand" href="/index.html">Swedish Hiking Trails</a>
+    		<ul class="bottom-list"> 
+        		<li class="bottom-list__item">
+					<a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
+				</li>
+            	<li class="bottom-list__item">
+					<a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
+				</li>
+        	</ul>
+      	</div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
