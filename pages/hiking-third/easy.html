@@ -3,131 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy</title>
-    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../../styles/easy.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/30a5af1934.js" crossorigin="anonymous"></script>
 </head>
-
-<body style="background-color:#DAF4C5;">
+<body style="background-color:#DAF4C5">
 
     <header>
-        <div class="loggo">
-            <div class="awesome">
-                <i class="fa-solid fa-kiwi-bird fa-10x"></i>
-                <i class="fa-solid fa-burger fa-10x"></i>
-                <i class="fa-solid fa-martini-glass-citrus fa-10x"></i>
-            </div>
-            <h1 class="loggo-text">KIWI BURGER BAR</h1>
-        </div>
-        <nav class="nav-bar">
-          <div class="hamburger-style">
-            <p class="hamburger" onclick="myFunction()">Hamburger</p>
-            <div class="hamburger-block" id="myLinks">
-            <a href="#bun">Bun</a>
-            <a href="#sause">Sause</a>
-            <a href="#chees">Chees</a>
-            <a href="#patty">Patty</a>
-            <a href="#lettuce">Lettuce</a>
-            <a href="#bun2">Bottom-bun</a>
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">
+                  <svg  width="50" height="50" viewbox="0 -30 100 200">
+                      <path
+                      d="
+                      M 100 120 100 30
+                      M -20 100 100 120
+                      M -20 100 -20 20
+                      M -20 20 100 30
+                      M 120 10 100 30
+                      M 120 90 120 10
+                      M 100 120 120 90
+                      M -20 100 -40 120
+                      M -40 120 -40 50
+                      M -40 50 -20 20
+                      M -10 90 5 80
+                      M 10 75 20 60
+                      M 30 60 40 75
+                      M 70 75 50 80
+                      M 75 70 90 50"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="5"
+                      cx="110" cy="110" r="100"/>
+                  </svg> 
+                  Swedish Hiking Trails
+              </a>
+              <button class="navbar-toggler" type="bfwjefijutton" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Trails
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="/pages/hiking-third/easy.html">Easy</a></li>
+                              <li><a class="dropdown-item" href="/pages/hiking-third/medium.html">Medium</a></li>
+                              <li><a class="dropdown-item" href="/pages/hiking-third/hard.html">Hard</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          What to do
+                          </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
+                                  <li><a class="dropdown-item" href="/what-third/landmarks.html">Landmarks</a></li>
+                                  <li><a class="dropdown-item" href="/what-third/geocache.html">Geocache</a></li>
+                                  <li><a class="dropdown-item" href="/what-third/wild-life.html">Wild life</a></li>
+                                  <li><a class="dropdown-item" href="/what-third/family.html">Family outings</a></li>
+                              </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/pages/about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/pages/contact.html">Contact</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
             </div>
           </div>
-          <div class="hamburger-menu">
-            <span class="bar"><i class="fa-solid fa-burger" onclick="myFunction()"></i></span>
-          </div>
-
-         
-        
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Fries</a>
-                <a href="#">Apple Slices</a>
-                <a href="#">Onion Rings</a>
-                <a href="#">Potato</a>
-              </div>
-              <span class="fryside" onclick="openNav()"> Sides</span>
-
-           <div>
-            <p class="suprise" onclick="on()">Overlay</p>
-
-            <div id="overlay" onclick="off()">
-                <div id="text"><img src="Bilder/kiwi.jpg" alt="happymeal"</div>
-              </div>
-              </div>
-           </div>
-        </nav>  
-
-          <script>
-            function myFunction() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-          </script> 
-
-<script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
-
-
-<script>
-    function on() {
-      document.getElementById("overlay").style.display = "block";
-    }
-    
-    function off() {
-      document.getElementById("overlay").style.display = "none";
-    }
-    </script>
+      </nav>
     </header>
+<br>
+<div class="card text-white bg-success text-center p-3 mx-auto" style="width: 18rem;">
+    <div class="card-body">
+      EASY TRAILS
+    </div>
+  
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">The trail has:</a>
+        <a href="#"><i class="fa-solid fa-fire-burner"></i> Campfires</a>
+        <a href="#"><i class="fa-solid fa-campground"></i> Campsites</a>
+        <a href="#"><i class="fa-solid fa-kiwi-bird"></i> Exciting wildlife</a>
+        <a href="#"><i class="fa-brands fa-fort-awesome"></i> Landmarks</a>
+        <a href="#"><i class="fa-solid fa-gem"></i> Geocache</a>
+        <a href="#"><i class="fa-solid fa-children"></i> Children trails</a>
+        <a href="#"><i class="fa-solid fa-fish-fins"></i> Fishing </a>
+        <a href="#"><i class="fa-solid fa-bed"></i> Sleeping cabins</a>
+        <a href="#"><i class="fa-solid fa-mountain"></i> Mountain climbing</a>
+      </div>
+      <p><span class="fryside" onclick="openNav()"> Icon description</span></p>
+</div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script> 
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+   <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+     document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+<br>
+
+    <main class="center">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card border-success h-100">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Muddus National Park  <i class="fa-solid fa-fire-burner"></i> <i class="fa-solid fa-mountain"></i><i class="fa-solid fa-gem"></i><i class="fa-solid fa-children"></i></h5>
+              <img src="../pictures/muddos.jpg" class="card-img-top" alt="Muddus">
+              <p class="card-text">
+                Here you can walk through old-growth forests and bogs where there are bogs and bogs. There is also a bit more dramatic nature such as steep rock ravines and the 42 meter high Muddusagah tent roof / Muddusfallet. In the southern part of the national park, the Muttosälven river flows into the Stora Luleälv.</p>
+              <a href="https://www.google.com/maps/place/Muddus+nationalpark/@66.9296773,20.2182928,17z/data=!3m1!4b1!4m5!3m4!1s0x45d7071bbb0b37bd:0x3bbc0515f96d9209!8m2!3d66.9296773!4d20.2204815?hl=sv">Map-Muddus</a>
+
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card border-success h-100">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">Dalbo Söderskog <i class="fa-solid fa-children"></i> <i class="fa-solid fa-gem"></i><i class="fa-solid fa-fire-burner"></i></h5>
+              <img src="../pictures/1200px-Dalby_Söderskog_nationalpark1.jpg" class="card-img-top" alt="Söderskog">
+              <p class="card-text">The national park is most beautiful in the spring. The intense, almost exotic, spring flowering with carpets in yellow and white is a welcome sign of spring. Then it's time to bring the blanket and coffee basket for this year's first picnic.</p>
+              <a href="https://www.google.com/maps/place/Dalby+S%C3%B6derskogs+nationalpark/@55.6760905,13.3302924,17z/data=!4m5!3m4!1s0x465390bfd1583331:0x4184abc5c3700e59!8m2!3d55.6762902!4d13.3300349">Map-Dalbo Söderskog</a>
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card border-success h-100">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Trestickland National Park <i class="fa-solid fa-children"></i> <i class="fa-solid fa-fire-burner"></i><i class="fa-solid fa-kiwi-bird"><i class="fa-solid fa-fish-fins"></i></i></h5>
+               <img src="../pictures/tresticklan-nationalpark-sjo.jpg" class="card-img-top" alt="Trestickland">
+              <p class="card-text">From the air, the area resembles a washboard. Nature is characterized by narrow and high ridges that extend in a north-south direction. Between them are bogs and long, narrow lakes. The sparse and barren pine forest with lichen and moss-covered rocks, together with the large number of lakes form a tranquil environment where you can hike for several days.
+            </p>
+              <a href="https://www.google.com/maps/place/Tresticklans+nationalpark/@59.0439521,11.7963143,17z/data=!4m5!3m4!1s0x46446683885af35b:0x7577df74b23bedee!8m2!3d59.043919!4d11.7950483">Map-Trestickland</a>
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+            <div class="card border-success h-100">
+              <div class="card-body">
+                <h5 class="card-title">Björnlandets National Park  <i class="fa-solid fa-children"></i> <i class="fa-solid fa-kiwi-bird"><i class="fa-solid fa-campground"></i><i class="fa-solid fa-gem"></i> </i><i class="fa-solid fa-mountain"></i></h5>
+                 <img src="../pictures/46309521cd34012f890a1f7eabb2ff5c.jpg" class="card-img-top" alt="Björnlandet">
+                <p class="card-text">Björnlandet National Park was founded in 1991 and consists of 2300 hectares of forest that have been protected as a heritage for our descendants. The forests are similar to the nature that Linnaeus describes from his trip to Lapland just over 280 years ago and consists mostly of old pine. Tree ages around 180 years are most common, but there are also trees that are significantly older than that.</p>
+                <a href="https://www.google.com/maps/place/Bj%C3%B6rnlandets+nationalpark/@63.9712011,18.0532065,17z/data=!3m1!4b1!4m5!3m4!1s0x467b079e613bf3f3:0x7ec1275eda35bdd4!8m2!3d63.9712011!4d18.0553952?hl=sv">Map-Björnlandet</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-success h-100">
+              <div class="card-body">
+                <h5 class="card-title">Djurö <i class="fa-solid fa-kiwi-bird"></i><i class="fa-solid fa-children"></i> <i class="fa-solid fa-fish-fins"></i></h5>
+                 <img src="../pictures/djuro-nationalpark-strandparti.jpg" class="card-img-top" alt="Djurö">
+                <p class="card-text">
+                    The main island Djurö in the far north is around 150 hectares. With its natural harbors, Djurö is a well-known and attractive destination for boat-borne outdoor life in Lake Vänern.</p>
+                <a href="https://www.google.com/maps/place/Djur%C3%B6+nationalpark/@58.86413,13.4661622,17z/data=!3m1!4b1!4m5!3m4!1s0x465b451e21445e9b:0xad33db60c99e650b!8m2!3d58.86413!4d13.4683509?hl=sv">Map-Djurö</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+          <div class="card border-success h-100">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Tyresta National Park <i class="fa-solid fa-fire-burner"></i><i class="fa-solid fa-children"></i><i class="fa-solid fa-bed"></i><i class="fa-solid fa-campground"></i></h5>
+              <img src="../pictures/Bylsjoleden-10-of-16.jpg" class="card-img-top" alt="Tyresta">
+              <p class="card-text">Just 20 km from the city of millions, Stockholm, you can experience a really old forest. In Tyresta you can pick berries and edible mushrooms, but not flowers and other plants. At the same time as Tyresta is close to the big city and is a popular nature area, the forests offer a feeling of wilderness.</p>
+              <a href="https://www.google.com/maps/place/Tyresta+nationalpark+och+naturreservat/@59.1697121,18.2343619,17z/data=!3m1!4b1!4m5!3m4!1s0x465f7dfb0b2221f5:0xc6be6d73b12ccc43!8m2!3d59.1697094!4d18.2365506">Map-Tyresta</a>
             </div>
           </div>
         </div>
       </div>
+    </main>
 
 
 </body>
