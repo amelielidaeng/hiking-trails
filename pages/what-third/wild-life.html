@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
-                    <svg width="50" height="50" viewbox="0 -30 100 200">
+                    <svg  width="50" height="50" viewbox="0 -30 100 200">
                         <path
                         d="
                         M 100 120 100 30
@@ -39,7 +39,8 @@
                         stroke="black"
                         stroke-width="5"
                         cx="110" cy="110" r="100"/>
-                    </svg> Swedish Hiking Trails
+                    </svg> 
+                    Swedish Hiking Trails
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -51,6 +52,7 @@
                             Trails
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="/pages/hiking-trails.html">All trails</a></li>
                                 <li><a class="dropdown-item" href="/pages/hiking-third/easy.html">Easy</a></li>
                                 <li><a class="dropdown-item" href="/pages/hiking-third/medium.html">Medium</a></li>
                                 <li><a class="dropdown-item" href="/pages/hiking-third/hard.html">Hard</a></li>
@@ -60,12 +62,13 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             What to do
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
-                                <li><a class="dropdown-item" href="/what-third/landmarks.html">Landmarks</a></li>
-                                <li><a class="dropdown-item" href="/what-third/geocache.html">Geocache</a></li>
-                                <li><a class="dropdown-item" href="/what-third/wild-life.html">Wild life</a></li>
-                                <li><a class="dropdown-item" href="/what-third/family.html">Family outings</a></li>
-                            </ul>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
+                                    <li><a class="dropdown-item" href="/pages/what-to-do.html">What to do</a></li>
+                                    <li><a class="dropdown-item" href="/pages/what-third/landmarks.html">Landmarks</a></li>
+                                    <li><a class="dropdown-item" href="/pages/what-third/geocache.html">Geocache</a></li>
+                                    <li><a class="dropdown-item" href="/pages/what-third/wild-life.html">Wild life</a></li>
+                                    <li><a class="dropdown-item" href="/pages/what-third/family.html">Family outings</a></li>
+                                </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/about.html">About</a>
@@ -157,21 +160,19 @@
             </div>
         </section>
     </main>
-    <footer>
-        <nav class="navbar sticky-bottom navbar-light bg-light mt-auto">
-            <div class="container-fluid align-items-center">
-                <a class="navbar-brand" href="/index.html">Swedish Hiking Trails</a>
-                <ul class="bottom-list">
-                    <li class="bottom-list__item">
-                        <a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li class="bottom-list__item">
-                        <a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
+    <nav class="navbar sticky-bottom navbar-light bg-light mt-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Swedish Hiking Trails</a>
+            <ul class="bottom-list">
+                <li class="bottom-list__item">
+                    <a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="bottom-list__item">
+                    <a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
